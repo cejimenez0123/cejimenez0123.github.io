@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scraping Websites and Object Oriented Programming"
-date:       2019-12-08 19:26:29 +0000
+date:       2019-12-08 14:26:30 -0500
 permalink:  scraping_websites_and_object_oriented_programming
 ---
 
@@ -10,9 +10,9 @@ I took a long road to get to where I am now with my code. Improving my coding ab
 
 The biggest hurdle for me was getting started. Where do I begin because I had a grasp of scraping, and if..else statements but I hadn't brought them all together yet until now. I had a rough start installing the studio, but it got done with help from friends. I took on the simplest task first and then move forward from there. Increasing in complexity the further I went.
 
-The first thing I did for the gem was to create a class that would be the object in this case museums. I listed the goals for information I would need to scrape from the website. Creating an attr_accessor for all the adjectives that would describe my object museum. It needs the fundamental a name, but also because it is a museum it needs a location and information on the museum. I knew I needed to retrieve the information with the scraper. 
+The first thing I did for the gem was to create a class that would be the object in this case museums. I listed the goals for information I would need to scrape from the website. Creating an attr_accessor for all the adjectives that would describe my object museum. It needs the fundamentals. In needs a name, but also because it is a museum it needs a location and information on the museum. I knew I needed to retrieve the information with the scraper. 
 
-Building the scraper I didn't know how to start. I went back to previous labs, and other examples of scraping were none provided a decent structure for what I wanted to do leading me further away from my goal. I had to use nokogiri and open-uri. It sounds simple, and it was once I learned it. 
+Building the scraper I didn't know how to start. I went back to previous labs, and other examples of scraping were none provided a decent structure for what I wanted to do. Leading me further away from my goal. I had to use nokogiri and open-uri. It sounds simple, and it was once I learned it. 
 `def scrape
         base_url = "https://www.any.com"
         html = open("#{base_url}#{@page}")
