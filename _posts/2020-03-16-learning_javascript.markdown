@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning Javascript"
-date:       2020-03-16 18:40:39 +0000
+date:       2020-03-16 14:40:40 -0400
 permalink:  learning_javascript
 ---
 
