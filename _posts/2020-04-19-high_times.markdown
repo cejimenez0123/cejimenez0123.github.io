@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "High Times"
-date:       2020-04-19 15:04:20 +0000
+date:       2020-04-19 11:04:20 -0400
 permalink:  high_times
 ---
 
